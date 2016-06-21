@@ -1,4 +1,4 @@
-FROM php:5.5.9-fpm
+FROM php:5.5.36-fpm
 
 RUN apt-get update -y
 RUN apt-get install -y git nano curl telnet vim wget zip apt-utils
