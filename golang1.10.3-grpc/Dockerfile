@@ -1,4 +1,4 @@
-FROM golang:1.10.3-alpine
+FROM golang:1.10.3
 #FROM golang:1.7
 
 RUN apt-get update && apt-get -y install unzip && apt-get clean
